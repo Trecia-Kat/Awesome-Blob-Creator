@@ -7,15 +7,15 @@
  outline: none;
 }
 body {
-  background-color: rgb(165, 224, 162);
+  background-color: rgba(182, 255, 168, 0.884);
 }
 .container {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.315);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid #000;
+  border: 1px solid rgb(246, 244, 247);
   border-radius: 15px;
   min-width: 550px;
   width: 45%;
@@ -27,7 +27,7 @@ body {
   display: grid;
   place-items: center;
   border-radius: 5px;
-  background-color: #55d2f8a8;
+  background-color: #55d2f834;
   width: 100%;
   min-height: 250px;
   padding: 20px 0;
@@ -39,6 +39,8 @@ body {
   background: linear-gradient(45deg, rgb(11, 104, 245), rgb(243, 10, 193));
   box-shadow: 15px 20px 30px rgba(19, 18, 18, 0.5);
 }
+
+/* colour section */
 input[type="color"] {
   border: none;
   appearance: none;
@@ -53,8 +55,10 @@ input[type="color"]::-webkit-color-swatch {
   border: none;
 }
 .colours {
+  margin-top: 10px;
   display: flex;
   justify-content: space-around;
+  /* ends */
 }
 .dimensions {
   display: flex;
@@ -62,6 +66,7 @@ input[type="color"]::-webkit-color-swatch {
   width: 100%;
   margin:20px 0 40px 0;
 }
+/* width and height */
 input[type="number"] {
   height: 40px;
   width: 80px;
@@ -102,4 +107,37 @@ input[type="range"]::-webkit-slider-thumb {
 }
 input[type="range"]::-webkit-slider-thumb:hover {
     background: rgb(82, 2, 39);
+}
+/* slider ends */
+ 
+ /* source output */
+input[type="text"] {
+  width: 82%;
+  height: 39px;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  background-color: #d917f35d;
+  border-radius: 3px;
+  color: #000;
+}
+
+/* copy button */
+button {
+  background-color: rgb(4, 141, 196);
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin-left: 4%;
+  width: 12%;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #71ce69;
+  box-shadow: -2px 2px 5px #9ace69, -2px -2px 5px #16f334;
+  color: #fff;
+  transform: translateY(-3px);
 }

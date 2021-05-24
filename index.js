@@ -2,7 +2,7 @@ let colourOne = document.getElementById("colourA");
 let colourTwo = document.getElementById("colourB");
 
 // Enable copy btn
-function copy() {
+function copyCode() {
   document.getElementById("copy").select();
   document.execCommand("copy");
   alert("Copied To Clipboard!");
