@@ -37,3 +37,21 @@ body {
   background: linear-gradient(45deg, rgb(11, 104, 245), rgb(243, 10, 193));
   box-shadow: 15px 20px 30px rgba(19, 18, 18, 0.5);
 }
+input[type="color"] {
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+  background-color: transparent;
+}
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 25px;
+  border: none;
+}
+/* .colours {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+} */
