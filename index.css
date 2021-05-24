@@ -2,7 +2,9 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+ font-weight: 600;
  font-family: sans-serif;
+ outline: none;
 }
 body {
   background-color: rgb(165, 224, 162);
@@ -50,8 +52,54 @@ input[type="color"]::-webkit-color-swatch {
   border-radius: 25px;
   border: none;
 }
-/* .colours {
-  width: 100%;
+.colours {
   display: flex;
   justify-content: space-around;
-} */
+}
+.dimensions {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin:20px 0 40px 0;
+}
+input[type="number"] {
+  height: 40px;
+  width: 80px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid rgb(139, 3, 110);
+  border-radius: 5px;
+}
+input[type="number"]:focus {
+  background-color: #f0f2f5;
+  border-color: rgb(0, 4, 255);
+  color: rgb(4, 0, 255);
+}
+/* range sliders */
+.slider {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+input[type="range"] {
+    appearance: none;
+    width: 100px;
+    outline: none;
+    margin-left: 15px;
+    height: 5px;
+    background-color: rgb(3, 96, 139);
+    border-radius: 25px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background: rgb(3, 96, 139);
+    border-radius: 50%;
+    cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: rgb(82, 2, 39);
+}

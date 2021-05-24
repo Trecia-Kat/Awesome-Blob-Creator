@@ -8,8 +8,9 @@ function copy() {
   alert("Copied To Clipboard!");
 } 
 
-// Prints source code on textarea 
+// Prints source code on text input 
 function sourceCode () {
+  document.getElementById("sourceCode").innerHTML = 
   // outputCode.value = `border-radius: ${top.value} ${right.value} ${bottom.value} ${left.value};`
 
 
