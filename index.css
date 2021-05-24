@@ -89,14 +89,13 @@ input[type="number"]:focus {
 }
 input[type="range"] {
     appearance: none;
-    width: 100px;
+    width: 119px;
     outline: none;
     margin-left: 15px;
     height: 5px;
     background-color: rgb(3, 96, 139);
     border-radius: 25px;
 }
-
 input[type="range"]::-webkit-slider-thumb {
     appearance: none;
     height: 15px;
