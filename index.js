@@ -9,5 +9,6 @@ function copy() {
 function sourceCode () {
   outputCode.value = `border-radius: ${top.value} ${right.value} ${bottom.value} ${left.value};`
 
-  
+
 }
+// enable user to change the colour of blob
