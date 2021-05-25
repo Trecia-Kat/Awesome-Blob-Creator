@@ -36,20 +36,12 @@ function createBlob() {
 
   document.getElementById("blob").style.cssText = `border-radius: ${borderRadius}; width: ${blobWidth}px; height: ${blobHeight}px`;
 
-  document.getElementById("blob").style.backgroundColor = `linear-gradient( ${colourOne.value}, ${colourTwo.value})`;
+  outputCode.value = `border-radius: ${borderRadius} width: ${blobWidth}px; height: ${blobHeight}px`
 }
 
-// Prints source code on text input 
-function sourceCode () {
-  
-0
-
-  // enable user to change the colour of blob
-  document.getElementById("blob").style.backgroundColor = `linear-gradient( ${colourOne.value}, ${colourTwo.value})`;
-}
 // Enable copy btn
 function copyCode() {
-  document.getElementById("copy").select();
+  outputCode.select();
   document.execCommand("copy");
   alert("Copied To Clipboard!");
 } 
