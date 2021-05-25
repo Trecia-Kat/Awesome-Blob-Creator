@@ -1,6 +1,7 @@
 // colours
-let colourOne = document.getElementById("colourA");
-let colourTwo = document.getElementById("colourB");
+/*let colourOne = document.getElementById("colourA");
+let colourTwo = document.getElementById("colourB");*/
+
 // source code and range sliders
 let outputCode = document.getElementById("sourceCode");
 let sliders = document.querySelectorAll("input[type='range']");
@@ -36,8 +37,15 @@ function createBlob() {
 
   document.getElementById("blob").style.cssText = `border-radius: ${borderRadius}; width: ${blobWidth}px; height: ${blobHeight}px`;
 
+  // prints on text input
   outputCode.value = `border-radius: ${borderRadius} width: ${blobWidth}px; height: ${blobHeight}px`
 }
+
+// change colour of blob
+// will modify later
+/*function colour() {
+  document.getElementById('blob').style.backgroundImage = `linear-gradient(${colourOne.value}, ${colourTwo.value}`
+}*/
 
 // Enable copy btn
 function copyCode() {

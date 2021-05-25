@@ -40,8 +40,8 @@ body {
   box-shadow: 15px 20px 30px rgba(19, 18, 18, 0.5);
 }
 
-/* colour section */
-input[type="color"] {
+/* will modify later */
+/*input[type="color"] {
   border: none;
   appearance: none;
   -webkit-appearance: none;
@@ -58,8 +58,7 @@ input[type="color"]::-webkit-color-swatch {
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
-  /* ends */
-}
+}*/
 .dimensions {
   display: flex;
   justify-content: space-around;
