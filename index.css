@@ -80,17 +80,18 @@ input[type="number"]:focus {
   color: rgb(4, 0, 255);
 }
 /* range sliders */
-.slider {
+.sliders {
+
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 input[type="range"] {
     appearance: none;
-    width: 119px;
+    width: 160px;
     outline: none;
-    margin-left: 15px;
+    margin: 15px;
     height: 5px;
     background-color: rgb(3, 96, 139);
     border-radius: 25px;
